@@ -1,0 +1,37 @@
+/* Selector Global */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Selector de Etiqueta */
+div{
+    background-color: aqua;
+}
+
+/* Selector de Clase */
+.list-container{
+    background-color: lightgreen;
+}
+
+/* Selector de Id */
+#principal-container{
+    background-color: yellow;
+}
+
+#principal-container h2{
+    color: red;
+}
+
+h1, p{
+    color: blue;
+}
+
+#img-html{
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    border: 2px solid black;
+    padding: 10px;
+}
