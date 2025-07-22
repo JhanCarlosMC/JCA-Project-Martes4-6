@@ -31,23 +31,6 @@ body{
 
 #header .container{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0;
-}
-
-#header h1{
-    color: #fff;
-    font-size: 1.8rem;
-    font-weight: bold;
-}
-
-nav{
-    display: flex;
-    gap: 2rem;
-}
-
-nav a{
-    text-decoration: none;
-    color: #f3f3f3;
+    align-items: center; /* En el eje Y Vertical */
+    justify-content: space-between;  /* En el eje X Horizontal*/
 }

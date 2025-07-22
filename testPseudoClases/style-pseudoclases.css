@@ -1,0 +1,11 @@
+#enlace1:hover{
+    background-color: red;
+}
+
+#enlace2:visited{
+    color: green;
+}
+
+#enlace3:active{
+    color: pink;
+}

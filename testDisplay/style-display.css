@@ -1,0 +1,40 @@
+.container{
+    width: 1200px;
+    border: 2px solid black;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.box{
+    height: 50px;
+    border: 1px solid black;
+}
+
+#inline .box{
+    width: 50px;
+    display: inline;
+}
+
+#block .box{
+    display: block;
+}
+
+#none .box{
+    display: none;
+}
+
+#flex{
+    border-color: red;
+    border-width: 3px;
+    display: flex;
+
+    /* justify-content: ; Ordenar los elementos de manera horizontal(segun su linea base)
+    align-items: ; Order los elementos de manera vertical(segun su linea base)
+    flex-wrap: ; Dar a los elementos una distribucion en lineas
+    flex-direction: ; Ordenar en final o columnas
+    flex-flow: ; Combinacion de direction y wrap
+    align-self: ; Ordenar un solo elemento de manera vertical
+    align-content: ; Una vez aplicado el wrap, darle orden a las filas creadas.
+    order: ; Da un orden segun los elementos creados inicialmente
+    */
+}
