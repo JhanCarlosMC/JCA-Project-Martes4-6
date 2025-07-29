@@ -6,17 +6,17 @@
 
 /* Selector de Etiqueta */
 div{
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 /* Selector de Clase */
 .list-container{
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
 }
 
 /* Selector de Id */
 #principal-container{
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 #principal-container h2{

@@ -1,0 +1,36 @@
+.about-container{
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    gap: 3rem;
+    align-items: start;
+}
+
+.about-container img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #cfcfcf;
+}
+
+.about-container p{
+    text-align: justify;
+    line-height: 1.8;
+}
+
+/*Skills*/
+.skills ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.skills li{
+    background-color: #340c88;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    color: #ffffff;
+    text-align: center;
+}

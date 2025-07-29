@@ -1,0 +1,28 @@
+body {
+    background-color: white;
+}
+
+/* Media Query */
+/*@media tipoContexto and (condicion){
+    estilos
+}*/
+/*Tamaño de pantalla PC*/ 
+@media (max-width: 1200px) {
+    body {
+        background-color: red;
+    }
+}
+
+/*Tamaño de pantalla tablet*/ 
+@media (max-width: 768px) {
+    body {
+        background-color: blue;
+    }
+}
+
+/*Tamaño de pantalla mobile*/ 
+@media (max-width: 480px) {
+    body {
+        background-color: green;
+    }
+}
